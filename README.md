@@ -7,3 +7,9 @@ Criteria for things in the repo:
 4. All the setup scripts should run with a single [`uv`](https://docs.astral.sh/uv/getting-started/installation/) command. No other explicit dependencies.
 
 We welcome contributions!
+
+
+### List of benchmarks
+
+- [stackoverflow](https://archive.org/download/stackexchange), with synthetic queries.
+- [json_bench](https://github.com/ClickHouse/JSONBench), but loaded into Parquet's variant type.
